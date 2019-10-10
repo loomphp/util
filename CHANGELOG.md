@@ -1,10 +1,10 @@
 # Changelog
 
-All notable changes to `util` will be documented in this file.
+All notable changes to this project will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## 1.0.0 - 2019-10-04
+## 1.0.0 - 2019-10-10
 
 ### Added
 - Everything
