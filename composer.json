@@ -1,0 +1,56 @@
+{
+    "name": "loom/util",
+    "type": "library",
+    "description": "A collection of PHP utility classes",
+    "keywords": [
+        "php",
+        "loom",
+        "util",
+        "utilities",
+        "arrays",
+        "strings"
+    ],
+    "homepage": "https://github.com/loomphp/util",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Augustus Kamau",
+            "email": "kaugustus15@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1.1",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Loom\\Util\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LoomTest\\Util\\": "test"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "scripts": {
+        "check": [
+            "@check-style",
+            "@test"
+        ],
+        "check-style": "phpcs src test",
+        "fix-style": "phpcbf src test",
+        "test": "phpunit --colors=always",
+        "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
+    }
+}
