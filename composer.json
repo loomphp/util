@@ -32,7 +32,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "LoomTest\\Util\\": "test"
+            "LoomTest\\Util\\": "tests"
         }
     },
     "config": {
