@@ -5,7 +5,7 @@
          colors="true">
     <testsuites>
         <testsuite name="Loom Test Suite">
-            <directory>./test/</directory>
+            <directory>./tests</directory>
         </testsuite>
     </testsuites>
 
